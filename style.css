@@ -184,6 +184,10 @@ input {
     border-bottom-right-radius: 7px;
   }
 
+  .addSong {
+    display: block;
+  }
+
   .main {
     /* border: 2px solid white; */
     padding: 0px;
