@@ -11,7 +11,6 @@
 body {
   /* background-color: #fbfbfd; */
   background-color: #1f1f1f;
-  overflow: hidden;
 }
 
 .logo {
@@ -34,6 +33,10 @@ nav {
   justify-content: space-around;
   align-items: center;
   padding: 10px;
+}
+
+.addSong {
+  display: none;
 }
 
 nav a {
@@ -184,9 +187,13 @@ input {
   .main {
     /* border: 2px solid white; */
     padding: 0px;
+    margin-top: 40px;
+    gap: 40px;
   }
 
-  main {height: auto;
+  main {
+    /* border: 2px solid white; */
+    height: auto;
     padding: 0px;
     width: auto;
     display: flex;
@@ -221,11 +228,13 @@ input {
   /* --------------- */
 
   input {
-    /* border: 2px solid white; */
     width: 60%;
-    height: 5px;
+    height: 3px;
   }
 
+  .lg {
+    display: none;
+  }
   .bottom {
     position: initial;
     padding: 0px;
