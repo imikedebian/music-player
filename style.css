@@ -232,9 +232,6 @@ input {
     height: 3px;
   }
 
-  .lg {
-    display: none;
-  }
   .bottom {
     position: initial;
     padding: 0px;
